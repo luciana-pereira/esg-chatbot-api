@@ -58,5 +58,5 @@ curl -X POST http://localhost:5000/chatbot -H "Content-Type: application/json" -
 ## Contribuição
 Contribuições são bem-vindas! Para sugestões, melhorias ou correções de bugs, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Contribuição
+## Licença
 Este projeto está licenciado sob a Licença MIT.
