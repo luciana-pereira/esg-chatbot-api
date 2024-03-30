@@ -1,8 +1,12 @@
 from flask import Flask
-from routes.chatbot_routes import chatbot_bp
+from flask_restful import Api
+from routes.chatbot_routes import ChatbotResource
 
 app = Flask(__name__)
-app.register_blueprint(chatbot_bp)
+api = Api(app)
+
+# Adicione os recursos da API
+api.add_resource(ChatbotResource, '/chatbot')
 
 if __name__ == '__main__':
     app.run(debug=True)
