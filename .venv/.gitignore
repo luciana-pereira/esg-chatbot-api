@@ -1,0 +1,11 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+
+# Ambiente virtual do Python
+.venv/
+
+# Arquivo de log do Python
+*.log
+
+# Arquivo .env com variáveis de ambiente sensíveis
+.env

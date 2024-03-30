@@ -44,7 +44,6 @@ Envie uma solicitação POST para o endpoint /chatbot com o corpo da solicitaç�
 ```bash
 curl -X POST http://localhost:5000/chatbot -H "Content-Type: application/json" -d '{"message": "Qual é o horário de funcionamento?"}'
 
-
 ```
 
 #### Resposta esperada

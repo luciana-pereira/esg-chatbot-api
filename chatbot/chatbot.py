@@ -7,7 +7,7 @@ from nltk.corpus import wordnet
 class Chatbot:
     def __init__(self, app_keywords=None):
         self.responses = [
-            {"question": "oi", "ola" "answer": "Olá! Como posso ajudar?"},
+            {"question": "oi", "answer": "Olá! Como posso ajudar?"},
             {"question": "tchau", "answer": "Até logo!"},
             {"question": "como você está?", "answer": "Estou bem, obrigado por perguntar!"},
             {"question": "qual é o seu nome?", "answer": "Meu nome é Chatbot. Como posso ajudar?"},
@@ -45,4 +45,3 @@ class Chatbot:
             if qa_pair["question"] in preprocessed_message:
                 return qa_pair["answer"]
         return "Desculpe, não entendi."
-
