@@ -4,3 +4,4 @@ Flask-SQLAlchemy
 celery
 gunicorn
 Flask-RESTful
+Flask-CORS
