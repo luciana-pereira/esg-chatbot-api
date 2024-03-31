@@ -3,3 +3,4 @@ nltk
 Flask-SQLAlchemy
 celery
 gunicorn
+Flask-RESTful
