@@ -1,3 +1,4 @@
+import spacy
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -46,8 +47,7 @@ class Chatbot:
             {"question": "Como faço para encontrar uma página? ", "answer": "Em desenvolvimento!"},
             {"question": "Como fazer um Post?  ", "answer": "Em desenvolvimento!"},
         ]
-        self.stop_words = set(stopwords.words('portuguese'))
-        self.lemmatizer = WordNetLemmatizer()
+        self.nlp = spacy.load("pt_core_news_sm")
         self.app_keywords = app_keywords if app_keywords else []
 
     def preprocess(self, text):
