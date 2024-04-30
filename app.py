@@ -10,6 +10,7 @@ api = Api(app)
 api.add_resource(ChatbotResource, '/chatbot')
 
 # Configuração do CORS
+CORS(app, origins=['https://portal-esg.vercel.app'])
 CORS(app)
 
 if __name__ == '__main__':
