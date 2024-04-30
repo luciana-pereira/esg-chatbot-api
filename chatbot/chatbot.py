@@ -9,7 +9,7 @@ class Chatbot:
         self.responses = [
             {"question": "oi", "answer": "Olá! Como posso ajudar?"},
             {"question": "tchau", "answer": "Até logo!"},
-            {"question": "como você está?", "answer": "Estou bem, obrigado por perguntar!"},
+            {"question": "como você esta", "answer": "Estou bem, obrigado por perguntar"},
             {"question": "Não consigo fazer login", "answer": "Verifique se as informações estão corretas e tente novamente."},
             {"question": "Como faço login?", "answer": "Vá para pagina inicial e inclua seus dados cadastrais nos campos Login e Senha"},
             {"question": "Como faço para recuperar minha senha?", "answer": "Vá à área de Login e clique em Recuperar a senha"},
