@@ -48,6 +48,8 @@ class Chatbot:
             {"question": "Como fazer um Post?  ", "answer": "Em desenvolvimento!"},
         ]
         self.nlp = spacy.load("pt_core_news_sm")
+        self.stop_words = set(stopwords.words('portuguese'))
+        self.lemmatizer = WordNetLemmatizer()
         self.app_keywords = app_keywords if app_keywords else []
 
     def preprocess(self, text):
